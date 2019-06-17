@@ -13,3 +13,6 @@ end
 
 set -x NVM_DIR ~/.nvm
 nvm use default --silent
+
+# nodebrew
+set -x PATH $HOME/.nodebrew/current/bin $PATH
